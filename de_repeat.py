@@ -36,8 +36,6 @@ def demo_csv():
     data=set([my_data['题干'][md] for md in range(len(my_data))])
     print(len(data))
 
-
-
 def p_data(repeat_data):
 
     return [data for data in repeat_data['题干']]
